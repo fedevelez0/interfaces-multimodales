@@ -9,7 +9,7 @@ image = Image.open('marco carola.png')
 st.image(image, caption='marco carola')
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.writer('El texto escrito es', texto)
+st.write('El texto escrito es', texto)
 
 st.subheader("Ahora usamos 2 columnas")
 col1, col2 = st.columns(2)
